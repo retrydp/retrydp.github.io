@@ -149,7 +149,6 @@
  /* Элемент точки */
  .slider .slick-dots {
      display: flex;
-     position: static;
      justify-content: center;
      position: relative;
      top: 100%;
