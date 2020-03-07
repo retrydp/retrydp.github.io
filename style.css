@@ -151,7 +151,7 @@
      display: flex;
      justify-content: center;
      position: relative;
-     top: 100%;
+     top: 250px;
  }
 
  .slider .slick-dots li {
