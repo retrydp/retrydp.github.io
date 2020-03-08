@@ -46,8 +46,9 @@
 .burger::after,
 .burger::before {
     background-color: #fff;
-    height: 3px;
-    width: 30px
+    border-radius: 2px;
+    height: 5px;
+    width: 44px
 }
 
 .burger::before {
@@ -163,6 +164,7 @@
     cursor: pointer;
     align-self: center
 }
+
 .next,
 .prev {
     margin-top: 95px
@@ -1088,7 +1090,14 @@ a {
     content: "";
     margin: 0
 }
+
 @media screen and (max-width:1170px) {
+
+    .container_fourth,
+    .container_eighth,
+        {
+        width: 80%;
+    }
 
     .next,
     .prev {
@@ -1104,7 +1113,8 @@ a {
     }
 
     .slider_container {
-        margin-top: 10%
+        margin-top: 40%;
+
     }
 
     .adv_container {
@@ -1125,11 +1135,10 @@ a {
 
     .footer_img {
         justify-content: center !important;
-            }
-}
+    }
 
-@media screen and (max-width:700px) {
-    .slider_container {
-        margin-top: 150px
+    .bgimage {
+
+        background-position: center;
     }
 }
