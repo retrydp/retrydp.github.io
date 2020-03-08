@@ -184,13 +184,24 @@
     }
 
     .adv_container {
-        display: flex
+        display: flex;
+        width: 80%;
+        justify-content: space-between !important;
+
     }
 
     .slider .slick-dots {
         top: 200px
     }
-    .recent_column{margin-left: 0px;}
+
+    .recent_column {
+        margin-left: 0px !important;
+        margin: 0 auto;
+    }
+
+    .footer_img {
+        justify-content: center !important;
+            }
 }
 
 @media screen and (max-width:700px) {
