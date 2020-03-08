@@ -22,7 +22,7 @@
  }
 
  /*меню*/
- nav {
+ .desktop {
      width: 100%;
      max-width: 1170px;
      margin: 0 auto;
@@ -30,6 +30,37 @@
      align-items: center;
      justify-content: space-between;
      padding-top: 40px;
+ }
+
+ .adaptive {
+
+     display: none;
+     width: 90vw;
+     justify-content: space-around;
+     margin: 10% auto;
+     align-items: center;
+
+ }
+
+ .burger,
+ .burger::before,
+ .burger::after {
+     background-color: #fff;
+     height: 3px;
+     width: 30px;
+     position: relative;
+ }
+
+ .burger::before {
+     content: "";
+     position: absolute;
+     top: -10px;
+ }
+
+ .burger::after {
+     content: "";
+     position: absolute;
+     bottom: -10px;
  }
 
  .logo {
@@ -135,9 +166,42 @@
      align-self: center;
      display: inline-block;
  }
+/*meDIA+++++++++++++++++++++++++++++++++++++++++++++++*/
 
- /*ТОЧКИ*/
+ @media screen and (max-width: 1170px) {
 
+     .prev,
+     .next {
+         visibility: hidden;
+     }
+
+     .desktop {
+         display: none;
+     }
+
+     .adaptive {
+         display: flex;
+     }
+
+     .slider_container {
+         margin-top: 10%;
+     }
+
+     .adv_container {
+         display: flex;
+     }
+      .slider .slick-dots{
+         top: 200px;
+
+     }
+
+ }
+@media screen and (max-width: 700px) {
+    .slider_container {
+         margin-top: 150px;
+     }
+}
+/*ТОЧКИ*/
  .prev {
      margin-top: 95px;
  }
@@ -407,7 +471,6 @@
  .adv {
      max-height: 337px;
      max-width: 370px;
-
      margin-bottom: 30px;
  }
 
