@@ -34,6 +34,7 @@ body {
     font-size: 75px;
     align-self: center;
 }
+
 ::placeholder {
     color: red;
 }
