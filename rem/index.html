@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="sap.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__inner">
+            <input type="text" class="fontsize fsize" placeholder="Default Font Size"><br>
+            <input type="text" class="fontsize rsize" placeholder="Wanted Pixels Size">
+            <div class="result">TAP IT</div>
+        </div>
+    </div>
+    <script>
+        let fs = document.querySelector('.fsize');
+        let rs = document.querySelector('.rsize');
+        let res = document.querySelector('.result');
+        res.onclick = function() {
+            let rems = +rs.value / +fs.value;
+            res.textContent = rems + 'rem';
+        };
+    </script>
+</body>
+
+</html>
