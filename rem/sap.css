@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    caret-color: red;
+}
+
+.container {
+
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__inner {
+    width: 100%;
+    margin: 50px;
+    height: 548px;
+    border: 1px dashed #A86661;
+    display: flex;
+}
+
+.fontsize {
+    margin: 50px;
+    padding: 20px;
+    border: 1px dashed #A86661;
+    background-color: transparent;
+    color: #A86661;
+    font-size: 25px;
+}
+.result {
+    color: #A86661;
+    font-size: 75px;
+    align-self: center;
+}
