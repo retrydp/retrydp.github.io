@@ -10,12 +10,12 @@
   <body>
     <div class="container">
       <textarea id="string" cols="100" rows="10" class="string" placeholder="Введите текс и кликните мышкой за пределами ввода"></textarea>
-      <button class="toggle">EN</button>
+      <button class="toggle" type="button">EN</button>
     </div>
     <div class="result" style="text-align: center; margin-top: 50px;"></div>
     <script>
-      let a = " qwertyuiop[]asdfghjkl;'zxcvbnm,./1234567890`QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM./~!@#$%^&*()_+".split("");
-      let b = ' йцукенгшщзхъфывапролджэячсмитьбю.1234567890ёЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬЮ.Ё!"№;%:?*()_+'.split("");
+      let a = " `1234567890-=qwertyuiop[]asdfghjkl;'zxcvbnm,./~!@#$%^\&*()_+QWERTYUIOP{}ASDFGHJKL:\"ZXCVBNM<>?".split("");
+      let b = ' ё1234567890-=йцукенгшщзхъфывапролджэячсмитьбю.Ё!"№;%:?*()_+ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ,'.split("");
       const resOut = document.querySelector(".result");
       const text = document.querySelector(".string");
       const toggle = document.querySelector(".toggle");
@@ -23,6 +23,8 @@
       toggle.onclick = function () {
         let c = b;
         b = a;
+        {
+        }
         a = c;
         if (toggle.textContent == "EN") {
           toggle.textContent = "RU";
