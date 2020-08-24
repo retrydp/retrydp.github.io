@@ -49,10 +49,6 @@ textarea {
   resize: none;
 }
 
-input[type="button"] {
-  cursor: pointer;
-}
-
 ::-webkit-input-placeholder {
   color: #fff;
 }
@@ -95,6 +91,7 @@ textarea:focus {
   background-image: linear-gradient(bottom, #6da5a3 0%, #416b68 100%);
   float: left;
   color: #fff;
+  cursor: pointer;
 }
 
 .result {
