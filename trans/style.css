@@ -1,0 +1,11 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+}
