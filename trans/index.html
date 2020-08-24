@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <textarea
+        name="string"
+        id="string"
+        cols="100"
+        rows="10"
+        class="string"
+        placeholder="Введите текс и кликните мышкой за пределами ввода"
+      ></textarea>
+      <button class="toggle">EN</button>
+      <div class="result"></div>
+    </div>
+
+    <script>
+      let a = "qwertyuiop[]asdfghjkl;'zxcvbnm,./1234567890`QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM./~!@#$%^&*()_+".split(
+        ""
+      );
+      let b = 'йцукенгшщзхъфывапролджэячсмитьбю.1234567890ёЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬЮ.Ё!"№;%:?*()_+'.split(
+        ""
+      );
+      let toggle = document.querySelector(".toggle");
+      toggle.onclick = function () {
+        let c = b;
+        b = a;
+        a = c;
+        if (toggle.textContent == "EN") {
+          toggle.textContent = "RU";
+        } else if (toggle.textContent == "RU") {
+          toggle.textContent = "EN";
+        }
+      };
+
+      let resOut = document.querySelector(".result");
+      let text = document.querySelector(".string");
+
+      text.addEventListener("change", (env) => {
+        let result = [];
+        let string = text.value;
+
+        for (let i = 0; i < string.length; i++) {
+          if (string[i] == " ") {
+            result.push(" ");
+          }
+
+          for (let j = 0; j < a.length; j++) {
+            if (string[i] == a[j]) {
+              result.push(b[j]);
+            }
+          }
+        }
+        resOut.textContent = result.join("");
+      });
+    </script>
+  </body>
+</html>
