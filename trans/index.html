@@ -14,7 +14,7 @@
   <body>
     <form>
       <textarea rows="4" cols="50" name="subject" placeholder="Введите или скопируйте текст" class="message string"></textarea>
-      <input name="submit" class="btn toggle" type="button" value="EN" />
+      <button name="submit" class="btn toggle" type="button">EN</button>
     </form>
     <textarea
       class="result"
@@ -46,7 +46,7 @@
       };
       toggle.onclick = function () {
         let t = b;
-        (b = a), (a = t), "EN" == toggle.value ? (toggle.value = "RU") : "RU" == toggle.value && (toggle.value = "EN");
+        (b = a), (a = t), "EN" == toggle.textContent ? (toggle.textContent = "RU") : "RU" == toggle.textContent && (toggle.textContent = "EN");
       };
       mainEvent();
     </script>
