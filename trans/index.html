@@ -21,14 +21,8 @@
       const toggle = document.querySelector(".toggle");
 
       toggle.onclick = function () {
-        let c = b;
-        b = a;
-        a = c;
-        if (toggle.textContent == "EN") {
-          toggle.textContent = "RU";
-        } else if (toggle.textContent == "RU") {
-          toggle.textContent = "EN";
-        }
+        let t = b;
+        (b = a), (a = t), "EN" == toggle.textContent ? (toggle.textContent = "RU") : "RU" == toggle.textContent && (toggle.textContent = "EN");
       };
       text.addEventListener("change", (env) => {
         let result = [];
