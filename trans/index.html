@@ -9,26 +9,14 @@
   </head>
   <body>
     <div class="container">
-      <textarea
-        name="string"
-        id="string"
-        cols="100"
-        rows="10"
-        class="string"
-        placeholder="Введите текс и кликните мышкой за пределами ввода"
-      ></textarea>
+      <textarea id="string" cols="100" rows="10" class="string" placeholder="Введите текс и кликните мышкой за пределами ввода"></textarea>
       <button class="toggle">EN</button>
-      <div class="result"></div>
     </div>
-
+    <div class="result" style="text-align: center; margin-top: 50px;"></div>
     <script>
-      let a = "qwertyuiop[]asdfghjkl;'zxcvbnm,./1234567890`QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM./~!@#$%^&*()_+".split(
-        ""
-      );
-      let b = 'йцукенгшщзхъфывапролджэячсмитьбю.1234567890ёЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬЮ.Ё!"№;%:?*()_+'.split(
-        ""
-      );
-      let toggle = document.querySelector(".toggle");
+      let a = " qwertyuiop[]asdfghjkl;'zxcvbnm,./1234567890`QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM./~!@#$%^&*()_+".split("");
+      let b = ' йцукенгшщзхъфывапролджэячсмитьбю.1234567890ёЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬЮ.Ё!"№;%:?*()_+'.split("");
+      const toggle = document.querySelector(".toggle");
       toggle.onclick = function () {
         let c = b;
         b = a;
@@ -40,24 +28,18 @@
         }
       };
 
-      let resOut = document.querySelector(".result");
-      let text = document.querySelector(".string");
+      const resOut = document.querySelector(".result");
+      const text = document.querySelector(".string");
 
       text.addEventListener("change", (env) => {
         let result = [];
-        let string = text.value;
-
-        for (let i = 0; i < string.length; i++) {
-          if (string[i] == " ") {
-            result.push(" ");
-          }
-
-          for (let j = 0; j < a.length; j++) {
-            if (string[i] == a[j]) {
-              result.push(b[j]);
-            }
-          }
-        }
+        let string = text.value.split("");
+        string.forEach((item, i) => {
+          a.forEach((elem, j) => {
+            if (string[i] == a[j]) result.push(b[j]);
+          });
+        });
+        console.log(result);
         resOut.textContent = result.join("");
       });
     </script>
