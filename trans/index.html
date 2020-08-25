@@ -33,7 +33,8 @@
       const copy = resOut.addEventListener("click", () => {
         resOut.select();
         document.execCommand("copy");
-        resOut.textContent = "Текст скопирован в буфер обмена";
+        resOut.classList.add("copystyle");
+        resOut.innerHTML = "\n\n&lt; Текст скопирован в буфер обмена. &gt;";
       });
       const mainEvent = (e, c) => {
         const resOut = document.querySelector(".result");
@@ -46,13 +47,14 @@
             });
           });
           resOut.textContent = result.join("");
+          resOut.classList.remove("copystyle");
         });
       };
       toggle.onclick = function () {
-        mainEvent("click", toggle);
         let t = b;
         (b = a), (a = t), "EN" == toggle.textContent ? (toggle.textContent = "RU") : "RU" == toggle.textContent && (toggle.textContent = "EN");
       };
+      mainEvent("click", toggle);
       mainEvent("input", text);
     </script>
   </body>
