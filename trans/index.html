@@ -17,6 +17,8 @@
       <button name="submit" class="btn toggle" type="button">EN</button>
     </form>
     <textarea
+      rows="4"
+      cols="50"
       class="result"
       placeholder="Online перевод раскладки:
     Набрали текст, а раскладку клавиатуры не переключили? Не беда! Вам поможет исправление раскладки онлайн (английский - русский).
@@ -25,8 +27,8 @@
       readonly
     ></textarea>
     <script>
-      let a = " `1234567890-=qwertyuiop[]asdfghjkl;'zxcvbnm,./~!@#$%^\&*()_+QWERTYUIOP{}ASDFGHJKL:\"ZXCVBNM<>?".split("");
-      let b = ' ё1234567890-=йцукенгшщзхъфывапролджэячсмитьбю.Ё!"№;%:?*()_+ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ,'.split("");
+      let a = " `1234567890-=qwertyuiop[]asdfghjkl;'zxcvbnm,./~!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:\"ZXCVBNM<>?".split(""),
+        b = ' ё1234567890-=йцукенгшщзхъфывапролджэячсмитьбю.Ё!"№;%:?*()_+ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ,'.split("");
       const toggle = document.querySelector(".toggle");
       const text = document.querySelector(".string");
       const resOut = document.querySelector(".result");
@@ -41,6 +43,10 @@
       const mainEvent = (e, c) => {
         const resOut = document.querySelector(".result");
         c.addEventListener(e, (evt) => {
+          if (c == toggle) {
+            let t = b;
+            (b = a), (a = t), "EN" == toggle.textContent ? (toggle.textContent = "RU") : "RU" == toggle.textContent && (toggle.textContent = "EN");
+          }
           let result = [];
           let string = text.value.split("");
           string.forEach((item, i) => {
@@ -52,12 +58,7 @@
           resOut.classList.remove("copystyle");
         });
       };
-      toggle.onclick = function () {
-        let t = b;
-        (b = a), (a = t), "EN" == toggle.textContent ? (toggle.textContent = "RU") : "RU" == toggle.textContent && (toggle.textContent = "EN");
-      };
-      mainEvent("click", toggle);
-      mainEvent("input", text);
+      mainEvent("click", toggle), mainEvent("input", text);
     </script>
   </body>
 </html>
