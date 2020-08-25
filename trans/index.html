@@ -31,10 +31,12 @@
       const text = document.querySelector(".string");
       const resOut = document.querySelector(".result");
       const copy = resOut.addEventListener("click", () => {
-        resOut.select();
-        document.execCommand("copy");
-        resOut.classList.add("copystyle");
-        resOut.innerHTML = "\n\n&lt; Текст скопирован в буфер обмена. &gt;";
+        if (resOut.value) {
+          resOut.select();
+          document.execCommand("copy");
+          resOut.classList.add("copystyle");
+          resOut.innerHTML = "\n\n&lt; Текст скопирован в буфер обмена. &gt;";
+        }
       });
       const mainEvent = (e, c) => {
         const resOut = document.querySelector(".result");
