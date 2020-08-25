@@ -8,8 +8,11 @@ body {
 }
 
 form {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 333px;
   padding: 30px;
   border: 1px solid rgba(0, 0, 0, 0.2);
