@@ -32,16 +32,15 @@
       const toggle = document.querySelector(".toggle");
       const text = document.querySelector(".string");
       const resOut = document.querySelector(".result");
-      const copy = resOut.addEventListener("click", () => {
-        if (resOut.value) {
-          resOut.select();
-          document.execCommand("copy");
-          resOut.classList.add("copystyle");
-          resOut.innerHTML = "\n\n&lt; Текст скопирован в буфер обмена. &gt;";
-        }
-      });
       const mainEvent = (e, c) => {
         c.addEventListener(e, (evt) => {
+          if (c == resOut && resOut.value) {
+            resOut.select();
+            document.execCommand("copy");
+            resOut.classList.add("copystyle");
+            resOut.innerHTML = "\n\n&lt; Текст скопирован в буфер обмена. &gt;";
+            return;
+          }
           if (c == toggle) {
             let t = b;
             (b = a), (a = t), "EN" == toggle.textContent ? (toggle.textContent = "RU") : "RU" == toggle.textContent && (toggle.textContent = "EN");
@@ -57,7 +56,7 @@
           resOut.classList.remove("copystyle");
         });
       };
-      mainEvent("click", toggle), mainEvent("input", text);
+      mainEvent("click", toggle), mainEvent("click", resOut), mainEvent("input", text);
     </script>
   </body>
 </html>
