@@ -119,3 +119,7 @@ textarea:focus {
   color: brown;
   resize: none;
 }
+.copystyle {
+  font-size: 2em;
+  text-align: center;
+}
