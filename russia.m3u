@@ -1,4 +1,294 @@
-#EXTM3U url-tvg="http://www.teleguide.info/download/new3/xmltv.xml.gz"
+#EXTM3U 
+#EXTINF:1,Интер
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/110/stream.m3u8
+#EXTINF:13,К1
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/113/stream.m3u8
+#EXTINF:16,UA:Перший
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/87/stream.m3u8
+#EXTINF:17,НТН
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/129/stream.m3u8
+#EXTINF:19,Genuine TV
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4311/stream.m3u8
+#EXTINF:21,Прямий
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3612/stream.m3u8
+#EXTINF:22,Прямий HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3615/stream.m3u8
+#EXTINF:23,112 Україна
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/53/stream.m3u8
+#EXTINF:24,112 Украина HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/451/stream.m3u8
+#EXTINF:25,TV 1000
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/311/stream.m3u8
+#EXTINF:26,TV 1000 Action HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/308/stream.m3u8
+#EXTINF:27,TV 1000 World kino
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3684/stream.m3u8
+#EXTINF:28,ViP Comedy SD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4000/stream.m3u8
+#EXTINF:29,ViP Comedy HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/309/stream.m3u8
+#EXTINF:30,ViP Megahit SD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4003/stream.m3u8
+#EXTINF:31,ViP Megahit HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3981/stream.m3u8
+#EXTINF:32,ViP Premiere SD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4001/stream.m3u8
+#EXTINF:33,ViP Premiere HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3980/stream.m3u8
+#EXTINF:34,Sony Channel
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4048/stream.m3u8
+#EXTINF:35,Sony Sci-Fi
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/292/stream.m3u8
+#EXTINF:36,Sony Turbo
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/293/stream.m3u8
+#EXTINF:38,TLC
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/301/stream.m3u8
+#EXTINF:48,Сонце
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/141/stream.m3u8
+#EXTINF:50,Пиксель
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/135/stream.m3u8
+#EXTINF:54,NIKI Junior HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3621/stream.m3u8
+#EXTINF:55,NIKI Kids HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3624/stream.m3u8
+#EXTINF:57,Viasat Explore
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/322/stream.m3u8
+#EXTINF:58,Viasat History
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/327/stream.m3u8
+#EXTINF:59,Viasat Nature
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/328/stream.m3u8
+#EXTINF:60,Eurosport 2 HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/219/stream.m3u8
+#EXTINF:61,Discovery Channel
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/210/stream.m3u8
+#EXTINF:62,Discovery Channel HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4709/stream.m3u8
+#EXTINF:63,Discovery Science HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/206/stream.m3u8
+#EXTINF:64,ID Investigation Discovery HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/254/stream.m3u8
+#EXTINF:65,Travel channel HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/307/stream.m3u8
+#EXTINF:66,Animal planet
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/174/stream.m3u8
+#EXTINF:67,Animal planet HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4706/stream.m3u8
+#EXTINF:68,Мега
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/123/stream.m3u8
+#EXTINF:73,Viasat Sport HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/330/stream.m3u8
+#EXTINF:74,Eurosport 1
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/216/stream.m3u8
+#EXTINF:75,Eurosport 1 HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/217/stream.m3u8
+#EXTINF:76,Eurosport 2
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/218/stream.m3u8
+#EXTINF:77,Трофей
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/156/stream.m3u8
+#EXTINF:78,Трофей HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/554/stream.m3u8
+#EXTINF:85,Music 4EVER
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3974/stream.m3u8
+#EXTINF:86,Music 4EVER HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3987/stream.m3u8
+#EXTINF:87,MusicBox UA
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/76/stream.m3u8
+#EXTINF:88,MusicBox HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/419/stream.m3u8
+#EXTINF:89,EU Music
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/70/stream.m3u8
+#EXTINF:90,EU Music HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/570/stream.m3u8
+#EXTINF:91,Enter-фільм
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/56/stream.m3u8
+#EXTINF:92,Epic Drama
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3912/stream.m3u8
+#EXTINF:94,AMC
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4248/stream.m3u8
+#EXTINF:95,Film.Ua Drama
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/71/stream.m3u8
+#EXTINF:96,Star Cinema
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3703/stream.m3u8
+#EXTINF:98,Star Family
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3687/stream.m3u8
+#EXTINF:104,Дорама HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4247/stream.m3u8
+#EXTINF:105,FilmBox
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/400/stream.m3u8
+#EXTINF:106,ZEE TV
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/577/stream.m3u8
+#EXTINF:109,Наше любимое кино
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/402/stream.m3u8
+#EXTINF:110,Малятко TV
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/121/stream.m3u8
+#EXTINF:111,Детский мир
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/337/stream.m3u8
+#EXTINF:112,Duck TV
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/213/stream.m3u8
+#EXTINF:113,Duck TV HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/214/stream.m3u8
+#EXTINF:114,Lale
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/74/stream.m3u8
+#EXTINF:116,English Club TV
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/69/stream.m3u8
+#EXTINF:117,English Club HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3959/stream.m3u8
+#EXTINF:118,Da Vinci Learning UA
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/201/stream.m3u8
+#EXTINF:119,SEA TV
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3696/stream.m3u8
+#EXTINF:120,SEA TV HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4251/stream.m3u8
+#EXTINF:123,Дача
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/105/stream.m3u8
+#EXTINF:124,Дача HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/454/stream.m3u8
+#EXTINF:125,Наука
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3597/stream.m3u8
+#EXTINF:126,Терра
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/562/stream.m3u8
+#EXTINF:127,Фауна
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/2387/stream.m3u8
+#EXTINF:128,Epoque
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4216/stream.m3u8
+#EXTINF:129,DocuBox HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/211/stream.m3u8
+#EXTINF:134,Перший автомобільний
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/131/stream.m3u8
+#EXTINF:135,Перший автомобільний HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3988/stream.m3u8
+#EXTINF:136,MostVideo TV
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/571/stream.m3u8
+#EXTINF:137,Trace Sport Stars HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/303/stream.m3u8
+#EXTINF:138,FightBox HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/230/stream.m3u8
+#EXTINF:140,XSport
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/576/stream.m3u8
+#EXTINF:141,XSport HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3999/stream.m3u8
+#EXTINF:143,Nautical Channel HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4245/stream.m3u8
+#EXTINF:148,OTV Music
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/458/stream.m3u8
+#EXTINF:149,НАШЕ HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3699/stream.m3u8
+#EXTINF:150,НАШЕ Music HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/550/stream.m3u8
+#EXTINF:151,Етно Канал HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/456/stream.m3u8
+#EXTINF:159,К2
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/114/stream.m3u8
+#EXTINF:160,Zoom
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/94/stream.m3u8
+#EXTINF:161,Навигатор ТВ
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4236/stream.m3u8
+#EXTINF:162,Телевсесвіт
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/560/stream.m3u8
+#EXTINF:163,Телевсесвіт HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/561/stream.m3u8
+#EXTINF:164,Винтаж
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/97/stream.m3u8
+#EXTINF:165,Fashion TV
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/226/stream.m3u8
+#EXTINF:166,HDFASHION&LIFESTYLE
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/72/stream.m3u8
+#EXTINF:167,ID FASHION
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3642/stream.m3u8
+#EXTINF:168,Odessa Fashion Channel
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4213/stream.m3u8
+#EXTINF:169,Правда ТУТ
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/137/stream.m3u8
+#EXTINF:170,Правда ТУТ HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3985/stream.m3u8
+#EXTINF:171,Еко ТБ
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/165/stream.m3u8
+#EXTINF:172,Глас
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/101/stream.m3u8
+#EXTINF:173,Надія
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/125/stream.m3u8
+#EXTINF:174,Сварожичи
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4406/stream.m3u8
+#EXTINF:175,UA: Культура
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/117/stream.m3u8
+#EXTINF:176,UATV HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/91/stream.m3u8
+#EXTINF:177,Канал 24
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/54/stream.m3u8
+#EXTINF:178,Канал 24 HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3965/stream.m3u8
+#EXTINF:179,NewsOne
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/77/stream.m3u8
+#EXTINF:180,NewsOne HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3609/stream.m3u8
+#EXTINF:181,Рада
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/139/stream.m3u8
+#EXTINF:182,5 канал
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/55/stream.m3u8
+#EXTINF:184,ZIK
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/93/stream.m3u8
+#EXTINF:185,ZIK HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3618/stream.m3u8
+#EXTINF:186,Еспресо
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/108/stream.m3u8
+#EXTINF:188,Настоящее Время
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/2386/stream.m3u8
+#EXTINF:189,Настоящее время HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3932/stream.m3u8
+#EXTINF:190,Наш Макси ТВ
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4293/stream.m3u8
+#EXTINF:191,ЧП.INFO
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/163/stream.m3u8
+#EXTINF:192,Oboz TV
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3648/stream.m3u8
+#EXTINF:193,Oboz TV HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3984/stream.m3u8
+#EXTINF:194,RabinovichTV
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/572/stream.m3u8
+#EXTINF:195,Беларусь 24
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/411/stream.m3u8
+#EXTINF:196,Апостроф TV
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4730/stream.m3u8
+#EXTINF:197,Deutsche Welle
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/204/stream.m3u8
+#EXTINF:198,France 24
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/239/stream.m3u8
+#EXTINF:199,Ost West
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4254/stream.m3u8
+#EXTINF:200,Исландия
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4727/stream.m3u8
+#EXTINF:201,UA: Киев
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/162/stream.m3u8
+#EXTINF:202,ТРК Київ
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/115/stream.m3u8
+#EXTINF:203,ATR
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/62/stream.m3u8
+#EXTINF:204,ATR HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3936/stream.m3u8
+#EXTINF:206,4 канал
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/86/stream.m3u8
+#EXTINF:207,7 канал (Одесса) HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/61/stream.m3u8
+#EXTINF:208,8 канал
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/128/stream.m3u8
+#EXTINF:209,8 канал HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4051/stream.m3u8
+#EXTINF:210,Южная волна HD
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/568/stream.m3u8
+#EXTINF:211,Чорноморська ТРК
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/385/stream.m3u8
+#EXTINF:212,Перший Західний
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3948/stream.m3u8
+#EXTINF:213,UA:Закарпаття
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4244/stream.m3u8
+#EXTINF:214,UA:Волынь
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4308/stream.m3u8
+#EXTINF:215,UA: Донбас
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/107/stream.m3u8
+#EXTINF:217,UA:Крым
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/3606/stream.m3u8
+#EXTINF:219,SONATA TV
+http://cdnua03.hls.tv/509/hls/aaa0c68556fd3997846de2f72267b699/4770/stream.m3u8
 #EXTINF:-1 ,Остросюжетное HD
 http://188.35.9.11:2015
 #EXTINF:-1 ,КиноПремиум HD
