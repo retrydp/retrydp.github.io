@@ -7,6 +7,8 @@ http://188.35.9.11:2017
 http://user57332.clients-cdnnow.ru/stream/IFBYIR5OA7/157.m3u8
 #EXTINF:-1 ,Новий
 http://163.172.71.147:8080/novyy/mpegts
+#EXTINF:-1 ,UKRAINA
+http://cdnua03.hls.tv/476/hls/8f7ba3e262ebc5eb9d5fa82e865df107/53/stream.m3u8
 #EXTINF:-1 ,ICTV
 http://163.172.71.147:8080/ictv/mpegts
 #EXTINF:-1 ,ICTV
@@ -107,8 +109,6 @@ http://188.93.95.83/russia24/index.m3u8
 http://188.93.95.83/rentv/index.m3u8
 #EXTINF:-1 ,RTVi
 http://188.93.95.83/rtvi/index.m3u8
-#EXTINF:-1 ,UKRAINA
-http://cdnua03.hls.tv/476/hls/8f7ba3e262ebc5eb9d5fa82e865df107/53/stream.m3u8
 #EXTINF:-1 ,1+1
 http://163.172.71.147:8080/1plus1/mpegts
 #EXTINF:-1 ,2+2
