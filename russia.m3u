@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 ,Остросюжетное HD
 http://188.35.9.11:2015
+#EXTINF:-1 ,ТВ Центр
+http://iptv.ktkru.ru:8010/index.m3u8
 #EXTINF:-1 ,КиноПремиум HD
 http://188.35.9.11:2017
 #EXTINF:-1 ,Новий
