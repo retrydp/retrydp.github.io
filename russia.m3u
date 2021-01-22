@@ -1,13 +1,13 @@
 #EXTM3U
-#EXTINF:-1 ,Остросюжетное HD
-http://188.35.9.11:2015
+#EXTINF:-1 ,ICTV HD
+http://spacetv.in/stream/DIPK8H19CP8/158.m3u8
 #EXTINF:-1 ,ТВ Центр
 http://iptv.ktkru.ru:8010/index.m3u8
-#EXTINF:-1 ,КиноПремиум HD
-http://188.35.9.11:2017
+#EXTINF:-1 ,СТБ HD
+http://spacetv.in/stream/DIPK8H19CP8/156.m3u8
 #EXTINF:-1 ,Новий
 http://163.172.71.147:8080/novyy/mpegts
-#EXTINF:-1 ,Украiна
+#EXTINF:-1 user-agent="VLC/3.0.10 LibVLC/3.0.10" ,Украiна
 http://cdnua03.hls.tv/476/hls/8f7ba3e262ebc5eb9d5fa82e865df107/158/stream.m3u8
 #EXTINF:-1 ,ICTV
 http://163.172.71.147:8080/ictv/mpegts
