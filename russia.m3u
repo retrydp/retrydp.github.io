@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1 ,Первый канал
+http://37.235.170.167:81/udp/225.50.66.201:1234
+#EXTINF:-1 ,Первый канал HD
+http://178.163.100.12:4022/udp/234.0.0.172:2000
+#EXTINF:-1 ,Рен ТВ International
+http://sc.id-tv.kz/RenTV_36_37.m3u8
 #EXTINF:-1 ,ICTV HD
 http://spacetv.in/stream/DIPK8H19CP8/158.m3u8
 #EXTINF:-1 ,ТВ Центр
@@ -7,7 +13,7 @@ http://iptv.ktkru.ru:8010/index.m3u8
 http://spacetv.in/stream/DIPK8H19CP8/156.m3u8
 #EXTINF:-1 ,Новий
 http://163.172.71.147:8080/novyy/mpegts
-#EXTINF:-1 user-agent="VLC/3.0.10 LibVLC/3.0.10" ,Украiна
+#EXTINF:-1 ,Украiна
 http://cdnua03.hls.tv/476/hls/8f7ba3e262ebc5eb9d5fa82e865df107/158/stream.m3u8
 #EXTINF:-1 ,ICTV
 http://163.172.71.147:8080/ictv/mpegts
