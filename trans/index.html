@@ -51,9 +51,9 @@
             return;
           }
           if (c == toggle) {
-            const[a, b] = [b, a];
-            "EN" == toggle.textContent ? (toggle.textContent = "RU") : "RU" == toggle.textContent && (toggle.textContent = "EN");
-          }
+            let t = b;
+            (b = a), (a = t), "EN" == toggle.textContent ? (toggle.textContent = "RU") : "RU" == toggle.textContent && (toggle.textContent = "EN");
+          
           let result = [];
           let string = text.value.split("");
           string.forEach((item, i) => {
